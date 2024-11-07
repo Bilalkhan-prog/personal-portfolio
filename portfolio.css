@@ -49,6 +49,22 @@ nav ul li{
     font-size: 3rem;
     
 }
+.left-section .buttons{
+    padding: 50px 0;
+}
+.left-section .btn{
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 28px;
+    cursor: pointer;
+    /* margin: 13px 0; */
+}
+.btn:hover{
+    background-color: #9c97f1;
+}
 .left-section > div{
     width: 36rem;
 }
@@ -72,11 +88,79 @@ nav ul li{
 .second-section{
     max-width: 80vw;
     margin: auto;
+    height: 80vh;
 }
+.second-section h1{
+    font-size: 1.9rem;
+    margin: -1px 0 87px;
+}
+.text-grey{
+    color: grey;
+}
+.second-section .box{
+    background-color: white;
+    width: 77vw;
+    height: 3px;
+    margin: 50px 20px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    
 
+}
+.second-section .box .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+}
 main hr{
     border: 0;
     background: #9c97f1;
     height: 1.2px;
     margin: 60px 84px;
+}
+
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 158px;
+}
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 158px;
+    font-size: 9px;
+    line-height: 1.2rem;
+
+}
+.footer{
+    background-color: rgb(18, 18, 33);
+    height: 233px;
+    padding: 33px 67px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer li{
+    line-height: 37px;
+}
+.footer > div{
+    width: 226px;
+}
+
+.footer-rights{
+    text-align: center;
+    padding: 12px 0;
+    color: grey;
 }
